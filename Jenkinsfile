@@ -37,7 +37,7 @@ pipeline
                                               }
                                               }
                               
-                              stage('Integration testing) {
+                              stage('Integration testing') {
                                     agent {docker{
                                               reusenode false 
                                               image 'ubuntu'
